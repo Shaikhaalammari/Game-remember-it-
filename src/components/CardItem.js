@@ -5,7 +5,7 @@ const CardItem = (props) => {
   const card = props.card;
   return (
     <div style={styles.cardImage} key={card.id}>
-      <img style={styles.cardImage} alt={card.name} src={card.image} />
+      <img style={styles.cardImage} src={card.image} />
     </div>
   );
 };
